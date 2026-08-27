@@ -6,7 +6,6 @@ export default function Home() {
       <MiniBio
         name="Cayo"
         photoUrl="/foto-cayo.jpeg"
-        phrase="ad"
         phrase="Olá! Sou Cayo, apaixonado por tecnologia, cuscuz e Santa Cruz!"
       />
     </main>

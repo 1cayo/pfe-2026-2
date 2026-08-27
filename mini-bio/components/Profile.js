@@ -12,7 +12,7 @@ export default function Profile({
         width={130}
         height={130}
         className="profile-photo"
-        style={{ borderRadius: '12px' }}
+        style={{ borderRadius: '50%' }}
         priority
       />
       <h1 className="profile-name">{name}</h1>
