@@ -1,3 +1,4 @@
+// Mini Bio App - Next.js
 import MiniBio from '../components/MiniBio';
 
 export default function Home() {
