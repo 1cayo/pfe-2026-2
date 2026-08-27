@@ -52,11 +52,10 @@ body {
 .profile-photo {
   width: 130px;
   height: 130px;
-  border-radius: 16px;
+  border-radius: 12px;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border: 4px solid #ffffff;
-  outline: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
 }
 
 .profile-name {
