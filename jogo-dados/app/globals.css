@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.page-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.jogo-container {
+  width: 100%;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Card Principal */
+.card-principal {
+  background-color: #ffffff;
+  border: 2px solid #1e293b;
+  border-radius: 24px;
+  padding: 2.5rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.25rem;
+}
+
+.rodada-info {
+  font-size: 1.1rem;
+  color: #64748b;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+/* Área dos Jogadores (Colunas) */
+.jogadores-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.coluna-jogador {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.nome-jogador {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.dados-box {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 85px;
+}
+
+/* Divisor Vertical */
+.divisor-vertical {
+  width: 1px;
+  background-color: #e2e8f0;
+  align-self: stretch;
+  margin: 0 1rem;
+}
+
+/* Botões */
+.btn-jogar {
+  background-color: #ffffff;
+  color: #0f172a;
+  border: 1.5px solid #0f172a;
+  border-radius: 12px;
+  padding: 0.6rem 2.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-jogar:hover:not(:disabled) {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.btn-jogar:disabled {
+  border-color: #cbd5e1;
+  color: #94a3b8;
+  cursor: not-allowed;
+  background-color: #f8fafc;
+  opacity: 0.6;
+}
+
+/* Caixa de Mensagem */
+.mensagem-box {
+  width: 100%;
+  border: 1.5px solid #1e293b;
+  border-radius: 14px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.mensagem-texto {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #475569;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Card Inferior (Jogar Novamente) */
+.card-inferior {
+  background-color: #f8fafc;
+  border: 2px solid #1e293b;
+  border-radius: 20px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.btn-reiniciar {
+  background-color: #ffffff;
+  color: #0f172a;
+  border: 1.5px solid #94a3b8;
+  border-radius: 12px;
+  padding: 0.7rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-reiniciar:hover {
+  border-color: #0f172a;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.subtexto {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
