@@ -57,7 +57,7 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Ãrea dos Jogadores (Colunas) */
+/* ÃƒÂrea dos Jogadores (Colunas) */
 .jogadores-area {
   display: flex;
   justify-content: space-between;
@@ -96,7 +96,7 @@ body {
   margin: 0 1rem;
 }
 
-/* BotÃµes */
+/* BotÃƒÂµes */
 .btn-jogar {
   background-color: #ffffff;
   color: #0f172a;
@@ -180,3 +180,6 @@ body {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Efeitos suaves nos botoes */
+.btn-jogar { transition: transform 0.1s ease; }
