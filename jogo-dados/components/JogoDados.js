@@ -21,6 +21,7 @@ export default function JogoDados() {
   }
 
   // Jogada do Jogador 1
+  // Manipula a jogada do Jogador 1 e passa a vez
   function jogarJogador1() {
     const d1 = sortearDado();
     const d2 = sortearDado();
@@ -146,5 +147,6 @@ export default function JogoDados() {
     </div>
   );
 }
+
 
 
