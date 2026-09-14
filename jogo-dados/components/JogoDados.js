@@ -15,6 +15,7 @@ export default function JogoDados() {
   const [fimDeJogo, setFimDeJogo] = useState(false);
 
   // Sortear número entre 1 e 6
+  // Funcao utilitaria para sortear numero entre 1 e 6
   function sortearDado() {
     return Math.floor(Math.random() * 6) + 1;
   }
@@ -145,4 +146,5 @@ export default function JogoDados() {
     </div>
   );
 }
+
 
