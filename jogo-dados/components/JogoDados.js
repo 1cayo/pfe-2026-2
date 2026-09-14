@@ -1,4 +1,5 @@
-﻿'use client';
+﻿// Componente principal do Jogo de Dados (2 jogadores, 5 rodadas)
+'use client';
 
 import { useState } from 'react';
 import Dado from './Dado';
@@ -144,3 +145,4 @@ export default function JogoDados() {
     </div>
   );
 }
+
