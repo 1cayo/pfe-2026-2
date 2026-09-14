@@ -57,7 +57,7 @@ export default function JogoDados() {
     }
 
     if (rodada < 5) {
-      setMensagem(`Resultado da Rodada ${rodada}: ${resRodada}`);
+      setMensagem(`Rodada ${rodada}: ${resRodada}`);
       setRodada(rodada + 1);
       setTurno(1);
     } else {
@@ -148,6 +148,7 @@ export default function JogoDados() {
     </div>
   );
 }
+
 
 
 
