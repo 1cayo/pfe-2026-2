@@ -75,6 +75,7 @@ export default function JogoDados() {
   }
 
   // Reiniciar o jogo
+  // Funcao para reiniciar todas as variaveis ao valor inicial
   function reiniciarJogo() {
     setRodada(1);
     setTurno(1);
@@ -148,6 +149,7 @@ export default function JogoDados() {
     </div>
   );
 }
+
 
 
 
