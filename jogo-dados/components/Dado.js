@@ -1,5 +1,7 @@
-﻿export default function Dado({ valor }) {
-  // Se valor não for informado ou for 0, usa a imagem do placeholder dado0.png
+﻿import React from 'react';
+
+// Componente Dado: recebe a prop 'valor' (1 a 6) e exibe a imagem correspondente
+export default function Dado({ valor }) {
   const dadoValor = valor || 0;
 
   return (
