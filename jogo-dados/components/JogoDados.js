@@ -31,6 +31,7 @@ export default function JogoDados() {
   }
 
   // Jogada do Jogador 2
+  // Manipula jogada do Jogador 2 e calcula a soma dos dados
   function jogarJogador2() {
     const d1 = sortearDado();
     const d2 = sortearDado();
@@ -147,6 +148,7 @@ export default function JogoDados() {
     </div>
   );
 }
+
 
 
 
