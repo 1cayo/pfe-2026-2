@@ -143,7 +143,7 @@ export default function JogoDados() {
           <button className="btn-reiniciar" onClick={reiniciarJogo}>
             Jogar novamente
           </button>
-          <span className="subtexto">Aparece só no final do jogo</span>
+          <span className="subtexto"></span>
         </div>
       )}
     </div>
